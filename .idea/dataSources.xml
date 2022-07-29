@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="TallerMovies.showtime-service.test/Hibernate" uuid="5ded1ab4-3583-4b08-acc5-9be0502b5511">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:showtime;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.showtime-service.main/Hibernate" uuid="ca8c34da-ce7a-4919-be2e-2cf98df0a769">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:showtime;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.movie-service.main/Hibernate" uuid="4b1938db-5f03-4ccb-b32a-7b7ae2d59590">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:movies;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.movie-service.test/Hibernate" uuid="44f6945c-05a0-41f7-a146-471183c28003">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:movies;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.booking-service.test/Hibernate" uuid="f24dd1fe-ef7c-47f9-ae78-39a970fb0cb7">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:bookings;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.user-service.test/Hibernate" uuid="f365227d-4667-4455-9413-15da83b29558">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:users;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.booking-service.main/Hibernate" uuid="51d32081-072a-4cd6-9443-a62ff3962e4f">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:bookings;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="TallerMovies.user-service.main/Hibernate" uuid="e06fff6b-86e0-4b3b-b486-feb55cc93304">
+      <driver-ref>athena</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate</remarks>
+      <jdbc-driver>com.simba.athena.jdbc42.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:mem:users;</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>

@@ -1,0 +1,16 @@
+ext {
+    set('springAdminVersion', "2.7.1")
+}
+
+dependencies {
+    implementation 'de.codecentric:spring-boot-admin-starter-server'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'de.codecentric:spring-boot-admin-server-ui'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+}
+
+dependencyManagement {
+    imports {
+        mavenBom "de.codecentric:spring-boot-admin-dependencies:${springAdminVersion}"
+    }
+}
